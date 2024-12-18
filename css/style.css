@@ -176,6 +176,7 @@ img {
 
  .hero-title {
     max-width: 496px;
+    
 
     font-size: 56px;
     font-weight: 700;
@@ -266,11 +267,6 @@ img {
 /* ------------------- Our Team ------------------- */
 .ourteam {
     background: #f4f4fd;
-}
-
-.ourteam-content {
-    display: flex;
-    flex-direction: column;
 }
 
 .ourteam-title {
@@ -381,11 +377,6 @@ img {
 .footer-section {
     padding: 100px 0;
     background: var(--color-dark-navyblue);
-}
-
-.footer-content {
-    display: flex;
-    flex-direction: column;
 }
 
 .logo-footer {
