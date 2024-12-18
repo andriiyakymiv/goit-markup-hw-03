@@ -56,7 +56,6 @@ img {
 }
 
 .container {
-    display: flex;
     max-width: 1158px;
     padding-right: 15px;
     padding-left: 15px;
@@ -71,6 +70,10 @@ img {
 /*------------------- Header -------------------*/
 .header {
     border-bottom: 1px solid #e7e9fc;
+}
+
+.header-content {
+    display: flex;
 }
 
 .header-nav {
@@ -110,8 +113,10 @@ img {
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
+}
+
+.menu-item {
     padding: 24px 0;
-    
 }
 
 .menu-link {
@@ -344,14 +349,14 @@ img {
 .portfolio-item {
     width: calc((100% - 48px) / 3);
     background: #ffffff;
+    
 }
 
 .portfolio-label {
     padding: 32px 16px;
 
-    border-top: none;
     border: 1px solid #e7e9fc;
-    
+    border-top: none;
 }
 
 .card-name {
@@ -400,6 +405,8 @@ img {
 }
 
 .logo-footer-studio {
+        display: inline-block;
+
         color: #f4f4fd;
 }
 
